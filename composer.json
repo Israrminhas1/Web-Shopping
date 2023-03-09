@@ -1,0 +1,21 @@
+{
+    "name": "jagaad/shop",
+    "description": "individual project shopping",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Shop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Israrminhas1",
+            "email": "israrminhas99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-readline": "*",
+        "ext-pdo": "*"
+    }
+}
