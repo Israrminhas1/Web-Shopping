@@ -1,9 +1,8 @@
-# Welcome to Shop-Individual Project
-### The Database sql is provided in /database folder 
-### run php create-tables.php to create database.
-### You can add,edit,delete products.
-### Seperate Tab for Product Listing(catalogue).
-### You can add product to cart.
-### You can add/remove product from cart or increase or decrease quantity.
-### In Checkout page summary of your order will be displayed with total amount to be payed.
-### Seperate Tab for all completed orders.
+# Web Shopping 
+## Description
+This PHP-based web shop project utilizes OOP and PDO to handle orders and product management. With this web shop, users can create, modify, view, and delete products through the Add Product Page. Catalogue pages display these products, complete with randomized images. Users can add products to their carts, update their cart items, and remove items from the cart. At checkout, users can confirm their orders and select a checkout date. Additionally, they can view their order history and access order details.
+## Installation
+* Create database shop.
+* Run `php create-tables.php` to create database.
+* Run `composer install` to install all project dependencies.
+* Run project on your local machine.
